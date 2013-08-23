@@ -10,5 +10,5 @@ The new repository has been split into subrepositories/submodules. So you may ne
 1. Delete the **framework** and **vendors** folder
 2. Run the following commands
 
-`$ git submodules init`<br />
-`$ git submodules update`
+`$ git submodule init`<br />
+`$ git submodule update`
