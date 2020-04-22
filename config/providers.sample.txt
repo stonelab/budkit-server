@@ -1,0 +1,18 @@
+; facebook oauth configuration settings
+[facebook]
+    oauth-version = 2.0
+    client-id = YOUR_FACEBOOK_CLIENT_ID;
+    client-secret = YOUR_FACEBOOK_SECRET;
+    app-shared-session = 1;
+
+; twitter oauth configuration settings
+[twitter]
+    oauth-version = 1.0
+    consumer-key = YOUR_TWITTER_CONSUMER_KEY
+    consumer-secret = YOUR_TWITTER_CONSUMER_SECRET
+
+; google oauth configuration settings
+[google]
+    oauth-version = 2.0
+    client-id = YOUR_GOOGLE_CLIENT_ID
+    client-secret = YOUR_GOOGLE_CLIENT_SECRET                

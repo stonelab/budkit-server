@@ -1,0 +1,5 @@
+theme 2
+autoload.php
+vendor/*
+!vendor/services.json
+theme

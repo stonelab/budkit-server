@@ -1,0 +1,8 @@
+[
+  "Provider",
+  "Budkit\\Cms\\Provider",
+  "Budkit\\Frontend\\Provider",
+  "Budkit\\Api\\Provider",
+  "Budkit\\Repository\\Provider",
+  "Budkit\\Application\\Provider"
+]

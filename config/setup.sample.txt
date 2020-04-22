@@ -1,0 +1,30 @@
+; Delete this file or changed database.installed to 0 to trigger re-install;
+
+[database]
+host = localhost
+user = root
+password = YOUR_DATABASE_PASSWORD
+name = "YOUR_DATABASE_NAME"
+driver = MySQLi
+prefix = YOUR_DATABASE_PASSWORD
+installed = "1"
+collate = ""
+charset = "utf-8"
+select = "1"
+
+[session]
+store = database
+table = "?session"
+cookie = psession
+domain = budkit
+path = "/"
+datafile = "/"
+life = "3600"
+folder = sessions
+remember = "1209600"
+
+[encrypt]
+key = SOME_AUTO_GENERATED_VERY_SECRET_KEY
+
+[multibase]
+    enabled = TRUE

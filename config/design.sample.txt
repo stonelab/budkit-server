@@ -1,0 +1,5 @@
+; you should add a separate ini file for each config group
+; so create a file called appearance.ini and add the following lines
+[appearance]
+    theme    = themes/sample-theme/;
+    style    = styles/sample-style/;

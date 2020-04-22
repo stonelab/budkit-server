@@ -1,0 +1,21 @@
+{
+    "name": "budkit/budkit",
+    "description": "The Budkit Social App",
+    "keywords": [
+        "platform",
+        "budkit"
+    ],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "budkit/framework": "*",
+        "budkit/cms": "*",
+        "budkit/api": "*",
+        "budkit/repository": "*",
+        "budkit/polymerase": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {"": "/application"}
+    }
+}
