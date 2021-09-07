@@ -27,8 +27,7 @@
 */
 
 //check your environment and then decide what level of reporting you need;
-
-//error_reporting( E_ERROR | E_WARNING | E_PARSE | E_NOTICE );
+//error_reporting( E_ERROR | E_PARSE );
 //xdebug_stop_code_coverage();
 
 /*
@@ -82,4 +81,5 @@ $app->loader->add('', $paths['app']);
 | Requested Action and Creates a Response which by default is auto-returned.
 |
 */
+
 $app->execute();

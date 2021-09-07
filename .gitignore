@@ -3,3 +3,6 @@ autoload.php
 vendor/*
 !vendor/services.json
 theme
+.DS_Store
+composer.lock
+data

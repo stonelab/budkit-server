@@ -13,8 +13,15 @@
         "budkit/cms": "*",
         "budkit/api": "*",
         "budkit/repository": "*",
-        "budkit/polymerase": "dev-master"
+        "budkit/polymerase": "dev-master",
+        "budkit/social": "dev-master"
     },
+    "repositories":[
+        {
+            "type": "vcs",
+            "url": "git@github.com:stonelab/budkit-social.git"
+        }
+    ],
     "autoload": {
         "psr-4": {"": "/application"}
     }

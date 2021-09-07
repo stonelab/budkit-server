@@ -4,5 +4,6 @@
   "Budkit\\Frontend\\Provider",
   "Budkit\\Api\\Provider",
   "Budkit\\Repository\\Provider",
-  "Budkit\\Application\\Provider"
+  "Budkit\\Application\\Provider",
+  "Budkit\\Social\\Provider"
 ]
